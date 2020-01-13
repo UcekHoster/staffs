@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", "sans-serif";
+  color: rgb(41, 41, 41);
+}
+
+::selection {
+  background: #4f37b9;
+  color: #fff;
+}
+
+div .btn-large {
+  background-color: #311b92;
+  border-radius: 40px;
+}
+
+div .btn-large:hover {
+  background-color: #442ea5;
+  box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+  -webkit-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+  -moz-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+}
+
+form .btn-large {
+  background-color: #311b92;
+  border-radius: 40px;
+}
+
+form .btn-large:hover {
+  background-color: #442ea5;
+  box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+  -webkit-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+  -moz-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+}
+
+i {
+  color: #311b92;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  color: #311b92;
+}
+
+.card {
+  margin: 5% auto !important;
+  box-shadow: 2px 4px 8px 0 rgb(219, 219, 219) !important;
+  border-radius: 20px !important;
+  padding: 80px;
+  width: 80%;
+}
+.card:hover {
+  box-shadow: 2px 14px 38px 0 rgb(219, 219, 219) !important;
+  border-radius: 20px;
+}
+.mybtn {
+  width: 50%;
+  padding: 20px 10px !important;
+  border: 0px solid grey;
+  background: transparent;
+  font-family: "Poppins", "sans-serif" !important;
+  font-size: 1.5rem !important;
+  cursor: pointer;
+}
+
+.mybtn:focus {
+  width: 50%;
+  padding: 20px 10px !important;
+  border: 0px solid grey;
+  background-color: #fff !important;
+  font-family: "Poppins", "sans-serif" !important;
+  font-size: 1.5rem !important;
+  cursor: pointer;
+}
+
+.mailing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* <-------------------------- 1300px & 1400px-------------------------------> */
+
+/* <-------------------------- Home -------------------------------> */
+
+.main-container {
+  margin: 12rem auto !important;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-logo {
+  width: 15rem;
+  height: 15rem;
+}
+
+.home-top {
+  height: 60%;
+}
+
+.home-sub {
+  font-size: 1.8rem;
+}
+
+.home-head {
+  font-size: 2rem;
+}
+
+.home-top .btn-large {
+  background-color: #311b92;
+  border-radius: 0;
+}
+
+.home-top .btn-large:hover {
+  background-color: #6442b4;
+  -webkit-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+  -moz-box-shadow: 0px 5px 40px -5px rgba(51, 1, 80, 0.57);
+}
+
+/* <-------------------------- Login -------------------------------> */

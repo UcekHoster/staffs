@@ -1,0 +1,29 @@
+{
+  "name": "fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13",
+    "path": "^0.12.7",
+    "pdfjs-dist": "^2.2.228",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
